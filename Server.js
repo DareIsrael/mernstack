@@ -10,7 +10,8 @@
 
  const app = express();
  app.use(cors({
-   origin: ["https://mern-stack-app-ex9h.onrender.com"],
+   credentials: true,
+   origin: "https://mern-stack-app-ex9h.onrender.com"
  }));
 
  app.use(express.json())
