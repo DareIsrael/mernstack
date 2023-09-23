@@ -10,7 +10,7 @@
 
  const app = express();
  app.use(cors({
-   origin: ["http://localhost:3000", "https://mern-stack-app.onrender.com"],
+   origin: ["http://localhost:3000", "https://mern-stack-app-ex9h.onrender.com"],
  }));
 
  app.use(express.json())
