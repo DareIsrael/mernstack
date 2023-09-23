@@ -5,9 +5,13 @@
  const mongoose = require ('mongoose');
  
  const userRoutes = require('./routes/user')
+ const cors = require("cors");
 
 
  const app = express();
+ app.use(cors({
+   origin: ["http://localhost:3000", "https://mern-stack-app.onrender.com"],
+ }));
 
  app.use(express.json())
 
