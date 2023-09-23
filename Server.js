@@ -11,7 +11,7 @@
  const app = express();
  app.use(cors({
    credentials: true,
-   origin: "https://mernfrontend-nine.vercel.app/"
+   origin: "https://mern-stack-app-ex9h.onrender.com//"
  }));
 
  app.use(express.json())
